@@ -1,0 +1,427 @@
+@font-face{
+    font-family: "Beleren";
+    src: url("beleren.ttf");
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	background: url("images/engie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+	font-family: "Beleren", Times New Roman, Serif;
+	color: #FFFFFF;
+	font-size: 230%;
+	text-align: center;
+	margin: 7px auto;
+}
+
+@-moz-document url-prefix() { /* Disable scrollbar Firefox */
+    html{
+        scrollbar-width: none;
+    }
+}
+body {
+    margin: 0; /* remove default margin */
+    scrollbar-width: none; /* Also needed to disable scrollbar Firefox */
+    -ms-overflow-style: none;  /* Disable scrollbar IE 10+ */
+    overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* Disable scrollbar Chrome/Safari/Webkit */
+}
+
+.outlink{
+	display: block;
+	width: 15.5%;
+	margin-left:1%;
+	margin-top: 7px;
+    margin-bottom: 7px;
+	height: 150px;
+	line-height: 150px;
+	text-align: center;
+	font-family: "Beleren", Times New Roman, Serif;
+	font-size: 160%;
+	float: left;
+	border-radius: 15px;
+}
+
+#outlink_gmail{
+	text-indent: -9999px;
+	background: url(images/gmail.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 60%;
+}
+
+#outlink_catmail{
+	text-indent: -9999px;
+	background: url(images/catmail.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+#outlink_discord{
+	text-indent: -9999px;
+	background: url(images/discord.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 100%;
+}
+
+#outlink_reddit{
+	text-indent: -9999px;
+	background: url(images/snoo.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+#outlink_groupme{
+	text-indent: -9999px;
+	background: url(images/groupme.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 80%;
+}
+
+#outlink_nocmail{
+	text-indent: -9999px;
+	background: url(images/inoc.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 100%;
+}
+
+#outlink_ezclock{
+	text-indent: -9999px;
+	background: url(images/ezclock.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 100%;
+}
+
+#outlink_slack{
+	text-indent: -9999px;
+	background: url(images/slack.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 100%;
+}
+
+#outlink_xkcd{
+	text-indent: -9999px;
+	background: url(images/xkcd.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 80%;
+}
+
+#outlink_qc{
+	text-indent: -9999px;
+	background: url(images/qc.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 70%;
+}
+
+#outlink_egs{
+	text-indent: -9999px;
+	background: url(images/egs.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 60%;
+}
+
+#outlink_satw{
+	text-indent: -9999px;
+	background: url(images/satw.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 70%;
+}
+
+#outlink_tappedout{
+	text-indent: -9999px;
+	background: url(images/tappedout.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 50%;
+}
+
+#outlink_deckbox{
+	text-indent: -9999px;
+	background: url(images/deckbox.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 80%;
+}
+
+#outlink_scryfall{
+	text-indent: -9999px;
+	background: url(images/scryfall.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 90%;
+}
+
+#outlink_tcg{
+	text-indent: -9999px;
+	background: url(images/tcgplayer.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 90%;
+}
+
+#outlink_youtube{
+	text-indent: -9999px;
+	background: url(images/youtube.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 60%;
+}
+
+#outlink_twitch{
+	text-indent: -9999px;
+	background: url(images/twitch.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 80%;
+}
+
+#outlink_netflix{
+	text-indent: -9999px;
+	background: url(images/netflix.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 100%;
+}
+
+#outlink_dawnglare{
+	text-indent: -9999px;
+	background: url(images/dawnglare.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 90%;
+}
+
+#outlink_mtgrules{
+	text-indent: -9999px;
+	background: url(images/mtgrules.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 90%;
+}
+
+#outlink_blogatog{
+	text-indent: -9999px;
+	background: url(images/blogatog.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 90%;
+}
+
+#outlink_amazing{
+	text-indent: -9999px;
+	background: url(images/amazing.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 80%;
+}
+
+#outlink_pandora{
+	text-indent: -9999px;
+	background: url(images/pandora.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 120%;
+}
+
+#outlink_rainy{
+	text-indent: -9999px;
+	background: url(images/rain.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 70%;
+}
+
+#outlink_ibought{
+	text-indent: -9999px;
+	background: url(images/ibought.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 90%;
+}
+
+#outlink_cpanel{
+	text-indent: -9999px;
+	background: url(images/cpanel.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 90%;
+}
+
+#outlink_rhtt{
+	text-indent: -9999px;
+	background: url(images/rht.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 90%;
+}
+
+#outlink_wiki{
+	text-indent: -9999px;
+	background: url(images/wiki.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 80%;
+}
+
+#outlink_dnd{
+	text-indent: -9999px;
+	background: url(images/dnd.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 80%;
+}
+
+#outlink_darths{
+	text-indent: -9999px;
+	background: url(images/darthsndroids.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 80%;
+}
+
+#outlink_mychart{
+	text-indent: -9999px;
+	background: url(images/mychart.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 80%;
+}
+
+#outlink_tf2{
+	text-indent: -9999px;
+	background: url(images/tf2.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 90%;
+}
+
+#outlink_gw2{
+	text-indent: -9999px;
+	background: url(images/gw2.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 100%;
+}
+
+#outlink_day9{
+	text-indent: -9999px;
+	background: url(images/day9.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 100%;
+}
+
+#outlink_4chan{
+	text-indent: -9999px;
+	background: url(images/4chan.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 80%;
+}
+
+#outlink_tpb{
+	text-indent: -9999px;
+	background: url(images/tpb.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 100%;
+}
+
+#outlink_disney{
+	text-indent: -9999px;
+	background: url(images/disney.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 100%;
+}
+
+#outlink_loop{
+	text-indent: -9999px;
+	background: url(images/loop.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 100%;
+}
+
+#outlink_farside{
+	text-indent: -9999px;
+	background: url(images/farside.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 100%;
+}
+
+#outlink_paylocity{
+	text-indent: -9999px;
+	background: url(images/paylocity.png);
+	background-color: rgba(1, 1, 1, .2);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: auto 100%;
+}

@@ -1,0 +1,212 @@
+@font-face{
+    font-family: "Beleren";
+    src: url("beleren.ttf");
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+	background-color: #3b4045;
+}
+
+#main{
+	width: 90%;
+	max-width: calc(100% - 120px);
+	float: right;
+}
+
+h1{
+	font-family: "Beleren", Times New Roman, Serif;
+	color: #93a1a1;
+	font-size: 230%;
+	text-align: center;
+	margin: 10px auto;
+}
+h2{
+	font-family: "Beleren", Times New Roman, Serif;
+	color: #93a1a1;
+	font-size: 170%;
+	text-align: left;
+	margin: 10px auto;
+	border-bottom: double #93a1a1 3px;
+	padding-bottom: 10px;
+}
+
+.imgbox{
+	width: 30%;
+	margin: 0 auto;
+	padding: 0px;
+	min-width: 200px;
+}
+
+.selfimage{
+	width: 100%;
+	border: double #93a1a1 3px;
+}
+
+.navigation{
+	float: left;
+	background-color: #073642;
+	height: 100%;
+	width: 10%;
+	min-width: 120px;
+	outline: solid #2aa198 3px;
+	position: fixed;
+}
+
+.navlink{
+	text-align: center;
+	margin: 10px;
+	font-family: "Beleren", Times New Roman, Serif;
+	font-size: 160%;
+	line-height: 200%;
+	background-color: #002b36;
+	display: block;
+}
+a:link{
+	text-decoration: none;
+	color: #268bd2;
+}
+a:visited{
+	color: #6c71c4;
+}
+a:hover{
+	color: #2aa198;
+}
+a:focus{
+	color: #2aa198;
+	outline: none;
+}
+a:active{
+	color: #dc322f;
+}
+#current{
+	background-color: #001b26;
+}
+
+a.outlink:link{
+	display: block;
+	width: 24%;
+	margin-left: 7%;
+	margin-top: 30px;
+	height: 150px;
+	line-height: 150px;
+	text-align: center;
+	font-family: "Beleren", Times New Roman, Serif;
+	font-size: 160%;
+	float: left;
+	border-radius: 15px;
+}
+
+#outlink_reddit:link{
+	text-indent: -9999px;
+	background: url(../images/link_icons/snoo.png);
+	background-color: rgba(0, 14, 19, .7);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+#outlink_reddit:hover{
+	background-color: rgba(0, 14, 19, .9);
+}
+#outlink_reddit:focus{
+	background-color: rgba(0, 14, 19, .9);
+}
+#outlink_reddit:active{
+	background-color: rgba(0, 14, 19, 1);
+}
+
+#outlink_steam:link{
+	text-indent: -9999px;
+	background: url(../images/link_icons/steam.png);
+	background-color: rgba(0, 14, 19, .7);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+#outlink_steam:hover{
+	background-color: rgba(0, 14, 19, .9);
+}
+#outlink_steam:focus{
+	background-color: rgba(0, 14, 19, .9);
+}
+#outlink_steam:active{
+	background-color: rgba(0, 14, 19, 1);
+}
+
+#outlink_youtube:link{
+	text-indent: -9999px;
+	background: url(../images/link_icons/youtube.png);
+	background-color: rgba(0, 14, 19, .7);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+#outlink_youtube:hover{
+	background-color: rgba(0, 14, 19, .9);
+}
+#outlink_youtube:focus{
+	background-color: rgba(0, 14, 19, .9);
+}
+#outlink_youtube:active{
+	background-color: rgba(0, 14, 19, 1);
+}
+
+#outlink_tapped:link{
+	text-indent: -9999px;
+	background: url(../images/link_icons/tapdout.png);
+	background-color: rgba(0, 14, 19, .7);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 35%;
+}
+#outlink_tapped:hover{
+	background-color: rgba(0, 14, 19, .9);
+}
+#outlink_tapped:focus{
+	background-color: rgba(0, 14, 19, .9);
+}
+#outlink_tapped:active{
+	background-color: rgba(0, 14, 19, 1);
+}
+
+#outlink_deckbox:link{
+	text-indent: -9999px;
+	background: url(../images/link_icons/deckbox.png);
+	background-color: rgba(0, 14, 19, .7);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 25%;
+}
+#outlink_deckbox:hover{
+	background-color: rgba(0, 14, 19, .9);
+}
+#outlink_deckbox:focus{
+	background-color: rgba(0, 14, 19, .9);
+}
+#outlink_deckbox:active{
+	background-color: rgba(0, 14, 19, 1);
+}
+
+#outlink_twitch:link{
+	text-indent: -9999px;
+	background: url(../images/link_icons/twitch.png);
+	background-color: rgba(0, 14, 19, .7);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 30%;
+}
+#outlink_twitch:hover{
+	background-color: rgba(0, 14, 19, .9);
+}
+#outlink_twitch:focus{
+	background-color: rgba(0, 14, 19, .9);
+}
+#outlink_twitch:active{
+	background-color: rgba(0, 14, 19, 1);
+}
